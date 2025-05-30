@@ -1,0 +1,11 @@
+{
+  "name": "pandacodelimited/woo-viet",
+  "type": "wordpress-plugin",
+  "description": "Pandacode Global modified Plugin",
+  "homepage": "https://pandacodeglobal.com",
+  "version": "1.0.0",
+  "license": "None",
+  "require": {
+    "composer/installers": "^1 | ^2"
+  }
+}

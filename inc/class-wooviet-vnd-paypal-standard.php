@@ -30,7 +30,7 @@ class WooViet_VND_PayPal_Standard {
 	 *
 	 * @param int $exchange_rate_to_vnd
 	 */
-	public function __construct( $exchange_rate_to_vnd = 22770, $paypal_currency ) {
+	public function __construct( $paypal_currency, $exchange_rate_to_vnd = 22770 ) {
 
 		$this->exchange_rate_to_vnd = (int) $exchange_rate_to_vnd;
 		$this->paypal_currency      = $paypal_currency;
